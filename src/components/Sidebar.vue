@@ -1,3 +1,4 @@
+<!-- components/Sidebar.vue -->
 <script setup>
 
 </script>
