@@ -10,7 +10,7 @@ const WeatherStore= useWeatherStore();
 </script>
 
 <template>
-{{ WeatherStore.temperatura }}
+    <h2>La Temperatura Actual es: {{ WeatherStore.temperatura }}</h2>
 </template>
 
 <style scoped>

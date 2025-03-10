@@ -5,8 +5,7 @@ import Weather from './Weather.vue'
 
 <template>
 <div class="header">
-    <h2>La Temperatura Actual es: <Weather></Weather></h2>
-    
+    <Weather></Weather>    
 </div>
 </template>
 

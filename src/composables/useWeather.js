@@ -6,8 +6,8 @@ export const useWeather = async () => {
     const weatherStore = useWeatherStore();
 
     try {
-        const temperatura = await getTemperatura(); // ✅ Espera el resultado
-        weatherStore.temperatura = temperatura;     // ✅ Ahora es el valor, no una Promise
+        const temperatura = await getTemperatura(); 
+        weatherStore.temperatura = temperatura;     
     } catch (error) {
         console.error('Error al obtener la temperatura:', error);
     }
