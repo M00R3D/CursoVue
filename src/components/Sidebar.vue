@@ -3,14 +3,14 @@
 import { useRegistrarStore } from '@/modules/registro/stores/registrarStore';       
 import { ref, watch } from 'vue'; // Agrega watch
 const registrarStore=useRegistrarStore();
-const nombre = ref(registrarStore.nombre.vaule);
-const email = ref(registrarStore.email.vaule);
-watch(()=> registrarStore.nombre,(newValue) => {
-    nombre.value=newValue;
-});
-watch(()=> registrarStore.email,(newValue)=>{
-    email.value=newValue;
-})
+// const nombre = ref(registrarStore.nombre.vaule);
+// const email = ref(registrarStore.email.vaule);
+// watch(()=> registrarStore.nombre,(newValue) => {
+//     nombre.value=newValue;
+// });
+// watch(()=> registrarStore.email,(newValue)=>{
+//     email.value=newValue;
+// })
 </script>
 
 <template>
